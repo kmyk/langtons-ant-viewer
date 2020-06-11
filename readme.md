@@ -6,8 +6,8 @@ demo: <https://kmyk.github.io/langtons-ant-viewer/>
 
 basic usage:
 
--   left click: flip a cell
--   left click with Shift key or Control key: add an ant
+-   left click: add an ant
+-   left click with Shift key or Control key: flip a cell
 
 to change some parameters, use the query string.
 for example, <https://kmyk.github.io/langtons-ant-viewer/?scale=1&speed=high>.
