@@ -173,14 +173,14 @@ window.addEventListener('DOMContentLoaded', () => {
         const y = Math.floor(ev.y / scale);
         const x = Math.floor(ev.x / scale);
         if (ev.shiftKey || ev.ctrlKey) {
+            app.flipCell(y, x, 'grey');
+        } else {
             app.addAnt({
                 'y': y,
                 'x': x,
                 'direction': Math.floor(Math.random() * 4),
                 'color': getNextColor()
             });
-        } else {
-            app.flipCell(y, x, 'grey');
         }
     };
     resize();
