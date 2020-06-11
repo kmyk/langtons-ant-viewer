@@ -1,6 +1,6 @@
 # Langton's Ant viewer
 
-demo: <https://kimiyuki.net/app/langtons-ant/>
+demo: <https://kmyk.github.io/langtons-ant-viewer/>
 
 ## how to play
 
@@ -10,7 +10,7 @@ basic usage:
 -   left click with Shift key or Control key: add an ant
 
 to change some parameters, use the query string.
-for example, <https://kimiyuki.net/app/langtons-ant/?scale=1&speed=high>.
+for example, <https://kmyk.github.io/langtons-ant-viewer/?scale=1&speed=high>.
 
 ## how to compile
 
